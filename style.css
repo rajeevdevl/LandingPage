@@ -33,17 +33,17 @@ body{
 
 .navbar{
     background-color: var(--main-bg-color);
-    padding: 1rem 0;
+    padding: 1rem 0
 }
 
 .navbar-brand{
-    width: 300px;
+    width: 200px;
 }
 
 /* hero section */
 
 .section-main{
-    padding:5.8rem 2.3rem;
+    padding:9.8rem 2.3rem;
  /* overflow: hidden; */
     color:#fff;
     background-image:linear-gradient(to right,#000000d7,#00000021), url('./assets/img/main-background1.png');
@@ -124,12 +124,15 @@ body{
     margin-bottom: 4rem;
 }
 
-
+.demo-lead{
+    font-size: 1.3rem;
+}
 
 button.btn,.btn:link,.btn-visited{
     background-color: var(--red);
     color:#fff;
     padding: 1rem 2rem;
+    width: 230px;
 }
 
 .btn{
@@ -167,9 +170,21 @@ button.btn,.btn:link,.btn-visited{
 
 }
 
+.employee-l{
+    padding-left: 2rem;
+}
+
+.employee-r{
+    padding-right: 2rem;
+}
+
+.employees-col{
+    padding:0;
+}
+
 .employees-lead{
     font-size: 1.3rem;
-    line-height: 1.8;
+    line-height: 1.6;
     margin-bottom: 3rem;
 }
 
@@ -193,8 +208,9 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .training-lead{
-    line-height: 1.8;
+    line-height: 1.6;
     margin-bottom: 3rem;
+    font-size: 1.3rem;
 }
 /* MEDIA */
 
@@ -251,7 +267,13 @@ button.btn,.btn:link,.btn-visited{
     justify-content: center;
     align-items: center;
     margin: 9.8rem 0;
+   
     }
+
+    .emails-container{
+        padding:0 2.1rem;
+    }
+
     .emails .emailbox {
     background-color: #000000;
     box-shadow: rgba(3, 153, 240, 0.8) 0px 0px 10px;
@@ -285,7 +307,7 @@ button.btn,.btn:link,.btn-visited{
     }
 
     .email-lead{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .box_email {
