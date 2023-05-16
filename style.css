@@ -150,8 +150,9 @@ button.btn,.btn:link,.btn-visited{
 /* section 3 */
 
 .section-4{
-    padding: 15rem 0;
-    background: linear-gradient(to left,#00000013,#000000b9),url(./assets/img/emailRemBackUpdated.png);
+    margin: 9.8rem 0;
+    /* background: linear-gradient(to left,#00000013,#000000b9),url(./assets/img/emailRemBackUpdated.png); */
+    background: linear-gradient(to left,#00000013,#000000b9),url(./assets/img/flipPattern.png);
     background-size: cover;
 
 }
@@ -163,6 +164,17 @@ button.btn,.btn:link,.btn-visited{
 .employees-view .row{
     margin:4rem 0;
 }
+
+.employees-view-box:not(:last-child){
+    padding: 5.8rem 0;
+}
+
+.employee-img{
+    object-fit: contain;
+    height: 750px;
+   
+}
+
 
 .employees-heading{
     font-size: 3.5rem;
@@ -192,6 +204,8 @@ button.btn,.btn:link,.btn-visited{
 
 
 /* section 4 */
+
+
 
 .training-box{
     margin: 0 auto;
@@ -233,9 +247,11 @@ button.btn,.btn:link,.btn-visited{
 .building-trust{
     color:var(--white);
     background-color: var(--main-bg-color);
-    padding: 6rem 0;
+    /* margin: 9.8rem 0; */
+    padding: 2rem;
     box-shadow: var(--red) 0px 0px 10px;
-    overflow-x: hidden;
+margin: 0;
+
 }
 
 .building-heading{
@@ -316,6 +332,11 @@ button.btn,.btn:link,.btn-visited{
     
     .box_email p {
         padding: 20px 0px 30px 0px;
+    }
+
+    /* section 7 */
+    .section-7{
+        margin: 9.8rem 0;
     }
 
     /* footer */
