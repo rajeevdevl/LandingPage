@@ -177,8 +177,8 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .employee-img{
-    /* object-fit: contain; */
-    height: 750px;
+    object-fit: contain;
+    /* height: 850px; */
    
 }
 
