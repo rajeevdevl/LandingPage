@@ -36,6 +36,10 @@ body{
     padding: 1rem 0
 }
 
+.trusted-by{
+    font-size: 1.5rem;
+}
+
 .navbar-brand{
     width: 200px;
 }
@@ -72,7 +76,7 @@ body{
         display: flex;
         align-items: center;
         gap:10px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     /* .main-features li ion-icon{
@@ -133,7 +137,7 @@ body{
 button.btn,.btn:link,.btn-visited{
     background-color: var(--red);
     color:#fff;
-    padding: 1rem 2rem;
+    padding: 1rem 1.2rem;
     width: 230px;
 }
 
@@ -428,6 +432,12 @@ img.svgfix rect {
 
     /* MEDIA */
 
+    @media only screen and (max-width: 1500px) {
+        .email-heading{
+            font-size: 2.5rem;
+        }
+    }
+
 
 
  @media only screen and (max-width: 1200px) {
@@ -513,5 +523,11 @@ img.svgfix rect {
 
 
 @media only screen and (max-width: 768px) {
-    
+    .navbtnfull{
+        width: 100%;
+    }
+
+    .navbtnfull .btn{
+        width: 100%;
+    }
 }
