@@ -173,7 +173,7 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .employee-img{
-    object-fit: contain;
+    /* object-fit: contain; */
     height: 750px;
    
 }
@@ -229,22 +229,6 @@ button.btn,.btn:link,.btn-visited{
     margin-bottom: 3rem;
     font-size: 1.3rem;
 }
-/* MEDIA */
-
-
-
-/* @media only screen and (min-width: 1200px) {
-    .img-hover-zoom--colorize img {
-        width: 200px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .h1,
-    h1 {
-        font-size: 2rem;
-    }
-} */
 
 /* building trust */
 .building-trust{
@@ -259,6 +243,10 @@ margin: 0;
 
 .building-heading{
     font-size: 3rem;
+}
+
+img.svgfix rect {
+    
 }
 
 /* features */
@@ -436,3 +424,94 @@ margin: 0;
             font-size: 1rem;
         }
     }
+
+
+    /* MEDIA */
+
+
+
+ @media only screen and (max-width: 1200px) {
+  .email-heading{
+    font-size: 2rem;
+  }
+
+  .email-lead{
+    font-size: 1rem;
+  }
+
+  .training-subheading{
+    font-size: 2rem;
+  }
+
+  .training-lead{
+    font-size: 1rem;
+  }
+
+  .training-heading{
+    font-size: 1.2rem;
+  }
+
+  .btn-demo{
+    margin-top: 0 !important;
+  }
+
+  .employees-heading{
+    font-size: 2.5rem;
+  }
+
+  .employees-lead{
+    font-size: 1rem;
+  }
+
+  .main-features li{
+    font-size: 1rem;
+  }
+
+  .building-heading{
+    font-size: 2rem;
+  }
+} 
+
+@media only screen and (max-width: 992px) {
+    .form_data{
+        margin-top: 3rem;
+    }
+
+    .employee-r{
+        margin: 2rem;
+    }
+
+    .training-box{
+        margin-bottom: 3rem;
+    }
+
+    .features-cards{
+        gap:2rem;
+    }
+
+    .employee-r,.employee-l{
+        padding: 0;
+        margin: 0;
+    }
+
+    .employees-lead{
+        margin-bottom: 0;
+    }
+
+    .view-360,.view-personalize,.view-empower{
+        margin-bottom: 2rem;
+    }
+
+    .view-personalize .btn{
+        margin-top: 2.5rem;
+    }
+
+    .view-empower .btn{
+        margin-top: 2.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+}
