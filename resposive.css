@@ -3,6 +3,10 @@
     padding-left: 1rem;
     padding-right: 1rem;
    }
+
+   .trusted-by{
+    text-align: center;
+}
    
     .navbar-brand{
         width: 100px;
