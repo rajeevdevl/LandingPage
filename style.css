@@ -37,7 +37,7 @@ body{
 }
 
 .trusted-by{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .navbar-brand{
@@ -77,6 +77,7 @@ body{
         align-items: center;
         gap:10px;
         font-size: 1.2rem;
+        margin-bottom: 7px;
     }
 
     /* .main-features li ion-icon{
@@ -100,6 +101,10 @@ body{
         overflow: hidden;
         background-color: #fff;
         box-shadow: var(--red) 0px 0px 10px;
+    }
+
+    .iti {
+        width:100%;
     }
 
 
@@ -131,7 +136,7 @@ body{
 }
 
 .demo-lead{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 button.btn,.btn:link,.btn-visited{
@@ -150,7 +155,7 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .demo-heading{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 /* section 3 */
@@ -176,6 +181,8 @@ button.btn,.btn:link,.btn-visited{
     padding: 5.8rem 0;
 }
 
+
+
 .employee-img{
     object-fit: contain;
     /* height: 850px; */
@@ -184,7 +191,7 @@ button.btn,.btn:link,.btn-visited{
 
 
 .employees-heading{
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 
 }
@@ -202,12 +209,14 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .employees-lead{
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
-
+.employees-point li{
+    font-size: 1.2rem;
+}
 
 
 /* section 4 */
@@ -219,19 +228,19 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .training-heading{
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 
 .training-subheading{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
 .training-lead{
     line-height: 1.6;
     margin-bottom: 3rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 /* building trust */
@@ -253,6 +262,14 @@ img.svgfix rect {
     
 }
 
+.card-heading{
+    font-size: 2rem;
+}
+
+.card-lead{
+    font-size: 1.2rem;
+}
+
 /* features */
 
 .features{
@@ -260,8 +277,16 @@ img.svgfix rect {
     color:var(--white);
 }
 
+.feature-heading{
+    font-size: 2.5rem;
+}
+
 .features-cards{
     margin: 0 auto;
+}
+
+.feature-card-box{
+    margin-bottom: 3rem;
 }
 
 .features-cards .card{
@@ -269,6 +294,17 @@ img.svgfix rect {
     box-shadow: var(--red) 0px 0px 10px;
 }
 
+.feature-card-ul li{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.lti{
+    width: 100%;
+}
 
 /* video section */
 
@@ -296,6 +332,7 @@ img.svgfix rect {
         position: absolute;
         z-index: 0;
         object-fit: cover;
+        
         width: 100%;
         height: 80vh;
         top: 50%;
@@ -314,11 +351,11 @@ img.svgfix rect {
     }
 
     .email-heading{
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     .email-lead{
-        font-size: 1.3rem;
+        font-size: 2.3rem;
     }
 
     .box_email {
@@ -418,25 +455,11 @@ img.svgfix rect {
     
     
     
-    @media only screen and (max-width: 320px)   {
-
-        .email-heading{
-            font-size: 1.2rem;
-        }
-    
-        .email-lead{
-            font-size: 1rem;
-        }
-    }
 
 
     /* MEDIA */
 
-    @media only screen and (max-width: 1500px) {
-        .email-heading{
-            font-size: 2.5rem;
-        }
-    }
+   
 
     @media only screen and (max-width: 1366px) {
         .email-heading{
@@ -471,9 +494,7 @@ img.svgfix rect {
     margin-top: 0 !important;
   }
 
-  .employees-heading{
-    font-size: 2.5rem;
-  }
+
 
   .employees-lead{
     font-size: 1rem;
@@ -481,6 +502,7 @@ img.svgfix rect {
 
   .main-features li{
     font-size: 1rem;
+   
   }
 
   .building-heading{
@@ -527,13 +549,30 @@ img.svgfix rect {
     }
 }
 
-
-@media only screen and (max-width: 768px) {
-    .navbtnfull{
-        width: 100%;
+@media only screen and (max-width: 770px) {
+    .section-main,.section-demo{
+        padding:9.8rem 0;
     }
 
-    .navbtnfull .btn{
-        width: 100%;
+    .section-demo-box{}
+}
+
+
+@media only screen and (max-width: 770px) {
+    .main-header{
+        text-align: center;
+        font-size: 2.5rem;
     }
+
+  
+
+    .demo-lead{
+        font-size: 1rem;
+    }
+
+    .employees-heading,.card-heading,.demo-heading{
+        font-size: 2rem;
+    }
+
+
 }
