@@ -31,6 +31,25 @@ body{
     
 }
 
+h1{
+    font-size: 2.7rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
 .navbar{
     background-color: var(--main-bg-color);
     padding: 1rem 0
@@ -136,7 +155,7 @@ body{
 }
 
 .demo-lead{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 button.btn,.btn:link,.btn-visited{
@@ -154,9 +173,7 @@ button.btn,.btn:link,.btn-visited{
     color:#fff;
 }
 
-.demo-heading{
-    font-size: 2.5rem;
-}
+
 
 /* section 3 */
 
@@ -191,7 +208,7 @@ button.btn,.btn:link,.btn-visited{
 
 
 .employees-heading{
-    font-size: 2rem;
+    
     margin-bottom: 2rem;
 
 }
@@ -209,13 +226,18 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .employees-lead{
-    font-size: 1rem;
+    /* font-size: 1rem; */
     line-height: 1.6;
     /* margin-bottom: 3rem; */
 }
 
+.employees-point{
+    margin-top: 1rem;
+}
+
 .employees-point li{
     font-size: 1.2rem;
+    
 }
 
 
@@ -227,9 +249,6 @@ button.btn,.btn:link,.btn-visited{
     margin: 0 auto;
 }
 
-.training-heading{
-    font-size: 1rem;
-}
 
 
 .training-subheading{
@@ -240,7 +259,7 @@ button.btn,.btn:link,.btn-visited{
 .training-lead{
     line-height: 1.6;
     margin-bottom: 3rem;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 /* building trust */
@@ -254,20 +273,16 @@ margin: 0;
 
 }
 
-.building-heading{
-    font-size: 3rem;
-}
+
 
 img.svgfix rect {
     
 }
 
-.card-heading{
-    font-size: 2rem;
-}
+
 
 .card-lead{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 /* features */
@@ -277,9 +292,7 @@ img.svgfix rect {
     color:var(--white);
 }
 
-.feature-heading{
-    font-size: 2.5rem;
-}
+
 
 .features-cards{
     margin: 0 auto;
@@ -350,12 +363,10 @@ img.svgfix rect {
         height: 80vh;
     }
 
-    .email-heading{
-        font-size: 1rem;
-    }
+ 
 
     .email-lead{
-        font-size: 2.3rem;
+        /* font-size: 2.3rem; */
     }
 
     .box_email {
@@ -452,127 +463,8 @@ img.svgfix rect {
       .footer .left-border {
         border-right: 1px solid var(--section-color);
       }
-    
-    
-    
 
 
-    /* MEDIA */
-
-   
-
-    @media only screen and (max-width: 1366px) {
-        .email-heading{
-            font-size: 2rem;
-        }
-    }
-
-
-
- @media only screen and (max-width: 1200px) {
-  .email-heading{
-    font-size: 2rem;
-  }
-
-  .email-lead{
-    font-size: 1rem;
-  }
-
-  .training-subheading{
-    font-size: 2rem;
-  }
-
-  .training-lead{
-    font-size: 1rem;
-  }
-
-  .training-heading{
-    font-size: 1.2rem;
-  }
-
-  .btn-demo{
-    margin-top: 0 !important;
-  }
-
-
-
-  .employees-lead{
-    font-size: 1rem;
-  }
-
-  .main-features li{
-    font-size: 1rem;
-   
-  }
-
-  .building-heading{
-    font-size: 2rem;
-  }
-} 
-
-@media only screen and (max-width: 992px) {
-    .form_data{
-        margin-top: 3rem;
-    }
-
-    .employee-r{
-        margin: 2rem;
-    }
-
-    .training-box{
-        margin-bottom: 3rem;
-    }
-
-    .features-cards{
-        gap:2rem;
-    }
-
-    .employee-r,.employee-l{
-        padding: 0;
-        margin: 0;
-    }
-
-    .employees-lead{
-        margin-bottom: 0;
-    }
-
-    .view-360,.view-personalize,.view-empower{
-        margin-bottom: 2rem;
-    }
-
-    .view-personalize .btn{
-        margin-top: 2.5rem;
-    }
-
-    .view-empower .btn{
-        margin-top: 2.5rem;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .section-main,.section-demo{
-        padding:9.8rem 0;
-    }
-
-    .section-demo-box{}
-}
-
-
-@media only screen and (max-width: 770px) {
-    .main-header{
-        text-align: center;
-        font-size: 2.5rem;
-    }
 
   
-
-    .demo-lead{
-        font-size: 1rem;
-    }
-
-    .employees-heading,.card-heading,.demo-heading{
-        font-size: 2rem;
-    }
-
-
-}
+  
