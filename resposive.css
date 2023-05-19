@@ -173,6 +173,10 @@ video.fullscreen{
         margin: 4rem 0;
     }
 
+    .building-trust{
+        text-align: center;
+    }
+
     .email-lead{
         font-size: .8rem;
         margin-bottom: 1rem !important;
