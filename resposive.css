@@ -6,7 +6,10 @@
 
    .features .card-heading{
     font-size: 1rem;
+
    }
+
+  
 
    .section-4{
     background-image: none;
@@ -171,8 +174,20 @@ video.fullscreen{
     }
 
     .email-lead{
-        font-size: 1rem;
+        font-size: .8rem;
+        margin-bottom: 1rem !important;
     }
+
+    .box_email{
+        width: 230px;
+       }
+
+       .email-heading-btn{
+        width: 100px !important;
+        padding: .3rem .5rem !important;
+        font-size: .7rem;
+        
+       }
 
     .building-trust{
         padding: 1rem;
@@ -191,10 +206,7 @@ video.fullscreen{
         font-size: .6rem;
     }
 
-    .email-lead{
-        font-size: .8rem;
-        
-    }
+  
 
   }
 
