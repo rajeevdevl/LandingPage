@@ -68,8 +68,8 @@ const textArray = [
   "Embed Smart Banners",
   "Automate Remediation Process",
 ];
-const typingDelay = 50;
-const erasingDelay = 50;
+const typingDelay = 150;
+const erasingDelay = 150;
 const newTextDelay = 100; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;

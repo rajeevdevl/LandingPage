@@ -58,7 +58,8 @@ p{
 }
 .navbar{
     background-color: var(--main-bg-color);
-    padding: 1rem 0
+    padding: 1rem 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .trusted-by{

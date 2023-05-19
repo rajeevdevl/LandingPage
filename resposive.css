@@ -9,7 +9,13 @@
 
    }
 
-  
+  .view-personalize,.view-empower{
+    margin-top: 2rem;
+  }
+
+  .features .card-lead{
+    font-size: .7rem;
+  }
 
    .section-4{
     background-image: none;
@@ -28,7 +34,7 @@ video.fullscreen{
 }
 
 .demo-box{
-    margin: 5rem 0;
+    margin: 6rem 0;
 }
    
     .navbar-brand{
@@ -138,7 +144,7 @@ video.fullscreen{
     }
 
     .section-4{
-        margin: 4rem 0;
+        margin: 5rem 0;
         padding: 0;
     }
 
@@ -170,7 +176,7 @@ video.fullscreen{
     }
 
     .section-7{
-        margin: 4rem 0;
+        margin: 5rem 0;
     }
 
     .building-trust{
@@ -198,7 +204,7 @@ video.fullscreen{
     }
 
    .emails{
-    margin: 4rem 0;
+    margin: 5rem 0;
     padding: 0;
    }
 
