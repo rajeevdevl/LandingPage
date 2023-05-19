@@ -4,6 +4,10 @@
     padding-right: 1rem;
    }
 
+   .features .card-heading{
+    font-size: 1rem;
+   }
+
    .section-4{
     background-image: none;
    }
