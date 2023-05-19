@@ -63,14 +63,14 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = [
-  "Smartly Train Your Employees",
-  "Mitigate Real Attacks",
-  "Embed Smart Banners",
-  "Automate Remediation Process",
+  "Employees",
+  "Vendors",
+  "Email Infrastructure",
+  "Organisation",
 ];
-const typingDelay = 40;
-const erasingDelay = 20;
-const newTextDelay = 1500; // Delay between current and next text
+const typingDelay = 50;
+const erasingDelay = 30;
+const newTextDelay = 900; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
