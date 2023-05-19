@@ -54,7 +54,7 @@ h4{
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .navbar{
     background-color: var(--main-bg-color);
@@ -72,12 +72,17 @@ p{
 
 /* hero section */
 
+.human-error{
+    color:var(--main-color);
+    font-weight: bold;
+}
+
 .section-main{
     padding:9.8rem 2.3rem;
     
  /* overflow: hidden; */
     color:#fff;
-    background-image:linear-gradient(to right,#000000d7,#00000021), url('./assets/img/main-background1.png');
+    /* background-image:linear-gradient(to right,#000000d7,#00000021), url('./assets/img/emailRemBack.png'); */
 
     background-size: cover;
     background-position: top;
@@ -87,7 +92,7 @@ p{
 
    .section-main::after {
     content: '';
-    background: linear-gradient(to right,#00000067,#0000008d),url("./assets/img/mainAndSection.png") no-repeat center center/cover;
+    background: linear-gradient(to right,#00000067,#0000008d),url("./assets/img/3.png") no-repeat center center/cover;
     position: absolute;
     /* opacity: 1; */
     top:300px;
@@ -98,6 +103,7 @@ p{
     bottom: 0px;
     z-index: -9; }
 
+  
     .main-features li{
         list-style: none;
         display: flex;
@@ -181,7 +187,9 @@ button.btn,.btn:link,.btn-visited{
     color:#fff;
 }
 
-
+.email-heading{
+    font-weight: normal;
+}
 
 /* section 3 */
 
@@ -189,7 +197,7 @@ button.btn,.btn:link,.btn-visited{
     margin: 9.8rem 0;
     padding: 4rem 0;
     /* background: linear-gradient(to left,#00000013,#000000b9),url(./assets/img/emailRemBackUpdated.png); */
-    background: linear-gradient(to left,#00000013,#000000b9),url(./assets/img/flipPattern.png);
+    background: linear-gradient(to left,#0000008b,#000000b9),url(./assets/img/flipPattern.png);
     background-size: cover;
 
 }
@@ -244,7 +252,7 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .employees-point li{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     
 }
 
@@ -260,8 +268,12 @@ button.btn,.btn:link,.btn-visited{
 
 
 .training-subheading{
-    font-size: 2rem;
+    /* font-size: 2rem; */
     margin-bottom: 2rem;
+}
+
+.training-heading{
+    font-size: 1.3rem;
 }
 
 .training-lead{
