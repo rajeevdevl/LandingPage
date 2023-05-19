@@ -67,6 +67,7 @@ p{
 
 .section-main{
     padding:9.8rem 2.3rem;
+    
  /* overflow: hidden; */
     color:#fff;
     background-image:linear-gradient(to right,#000000d7,#00000021), url('./assets/img/main-background1.png');
@@ -195,7 +196,7 @@ button.btn,.btn:link,.btn-visited{
 }
 
 .employees-view-box:not(:last-child){
-    padding: 5.8rem 0;
+    padding: 2rem 0;
 }
 
 
