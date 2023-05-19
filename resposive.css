@@ -186,10 +186,11 @@ video.fullscreen{
     .email-lead{
         font-size: .8rem;
         margin-bottom: 1rem !important;
+        line-height: 1.6;
     }
 
     .box_email{
-        width: 230px;
+        width: 280px;
        }
 
        .email-heading-btn{
