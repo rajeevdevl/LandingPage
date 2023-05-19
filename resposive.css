@@ -5,7 +5,7 @@
    }
 
    .features .card-heading{
-    font-size: 1rem;
+    font-size: 1.5rem;
 
    }
 
@@ -14,7 +14,7 @@
   }
 
   .features .card-lead{
-    font-size: .7rem;
+    font-size: .9rem;
   }
 
    .section-4{
@@ -33,6 +33,10 @@ video.fullscreen{
     height: 30vh !important;
 }
 
+.feature-heading{
+    font-size: 2.4rem;
+}
+
 .demo-box{
     margin: 6rem 0;
 }
@@ -48,7 +52,7 @@ video.fullscreen{
     }
 
     h1{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .section-main{
@@ -68,7 +72,7 @@ video.fullscreen{
     }
 
     .main-features li{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .section-demo-box{
@@ -76,15 +80,15 @@ video.fullscreen{
     }
 
     p{
-        font-size: .9rem;
+        font-size: 1.2rem;
     }
 
     h2{
-        font-size: 1.3rem;
+        font-size: 1.9rem;
     }
 
     .training-subheading{
-        font-size: 1.7rem;
+        font-size: 2.3rem;
     }
 
     .trusted-by{
@@ -114,7 +118,11 @@ video.fullscreen{
    }
 
     h3{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
+    }
+
+    .employees-point li{
+        font-size: 1.3rem;
     }
 
     .employees-view .btn{
@@ -153,6 +161,8 @@ video.fullscreen{
         padding: 0;
     }
 
+
+    
     
 
     .feature-card-ul{
@@ -160,7 +170,7 @@ video.fullscreen{
     }
 
     .feature-card-ul li{
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     .feature-card-ul li img{
@@ -183,14 +193,20 @@ video.fullscreen{
         text-align: center;
     }
 
+    .building-heading {
+        font-size: 1.3rem;
+    }
+
     .email-lead{
-        font-size: .8rem;
+        font-size: 1.3rem;
         margin-bottom: 1rem !important;
-        line-height: 1.6;
+        line-height: 1.3;
     }
 
     .box_email{
-        width: 265px;
+        width: 100%;
+        padding: .3rem;
+        background-color: rgba(0, 0, 0, 0.668);
        }
 
        .email-heading-btn{
